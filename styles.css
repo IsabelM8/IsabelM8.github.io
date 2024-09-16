@@ -1,0 +1,141 @@
+body {
+    background-image: url('imgs/abstract-marble-texture-black-white-grey-background-handmade-technique_1258-99671.jpg');
+}
+
+main {
+    background-color: #d8c6e9;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+    padding: 10px
+}
+
+h1 {
+    color: #3C264F;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    /* color: #674188; */
+    color: #3C264F;
+    font-family: 'Times New Roman';
+    text-align: center;
+    padding-top: 30px;
+}
+
+p, figcaption>strong {
+    text-align: center;
+    font-size: 13pt;
+}
+
+figcaption>p {
+    font-size: 12pt;
+}
+
+#skills-container {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    padding: 10px;
+    gap: 40px; /* Add spacing between columns */
+    flex-wrap: wrap;
+}
+
+.skill-box {
+    background-color: #b696d5;
+    border: 2px solid #3C264F;
+    border-radius: 50%; /* Circle */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    font-size: 13pt;
+}
+
+#experience-container {
+    display: flex; /* Flexbox layout */
+    justify-content: center; /* Center boxes */
+    flex-wrap: wrap; 
+    gap: 20px; /* Space between boxes */
+    padding: 10px;
+}
+
+.experience-box {
+    border: 3px solid #3C264F;
+    border-radius: 5%; /* Make it rounder */
+    padding: 10px;
+    text-align: center;
+    max-width: 300px; /* Maximum the width of box can be */
+    min-width: 200px; /* Minimum the width of box can be; Helps keep similar sized boxes*/
+}
+
+#projects-container { /* Contains Projects and captions */
+    display: flex;
+    justify-content: space-evenly; /* Even space between projects */
+    padding: 10px;
+    gap: 20px;
+}
+
+.project { /* The 2 projects */
+    display: flex;
+    flex-direction: column; /* Gets captions to go under pictures */
+    align-items: center; /* Center content? */
+    width: 40%;
+}
+
+.project figure {
+    /* width: 100%; */
+    margin: auto;
+    padding-left: 5px;
+}
+
+.project figcaption { /* The captions */
+    font-size: 11pt;
+    text-align: center;
+    padding: 10px;
+    background-color: #b696d5;
+    border: 2px solid #674188;
+    margin-top: 10px;
+    width: auto;
+}
+
+.thumbnail { /* The 2 website pictures */
+    width: 100%;
+    height: auto;
+    border: 3px solid #674188;
+}
+
+#courses-container {
+    padding: 10px;
+}
+
+table {
+    width: 100%;
+    margin: 10px auto;
+    table-layout: fixed; /* All rows are the same width */
+    font-size: 13pt;
+}
+
+td {
+    height: 50px;
+}
+
+tbody {
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #b696d5;
+}
+
+a:hover {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}

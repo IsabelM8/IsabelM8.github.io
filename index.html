@@ -4,41 +4,136 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Isabel Mattivi</title>
+    <link href="styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Isabel Mattivi</h1>
-        <p>I'm Isabel Mattivi - A senior Computer Science major with minors in Mathematics and Data Analytics who likes music and games.</p>
-    <hr>
+        <h1>Isabel Mattivi</h1> <!--Center, color, font -->
+        <img src="imgs/self2.jpg" height="300">
+        <p>College Student</p>
     </header>
     <main>
-        <h4>My Courses:</h4>
-        <ul>
-            <li>CS 310 - Web Development</li>
-            <li>CS 250 - Foundations of AI & Data Science</li>
-            <li>DAT 300 - Big Data and Statistical Analysis</li>
-            <li>CS 401 - Capstone Project in Computing</li>
-            <li>MA 262 - Financial Mathematics in Excel</li>
-            <li>MU 365 - Orchestra</li>
-        </ul>
-
-        <h4>My Favorite Artists:</h4>
-        <ol>
-            <li><a href="https://open.spotify.com/artist/6fOMl44jA4Sp5b9PpYCkzz">NF</a></li>
-            <li><a href="https://open.spotify.com/artist/5IH6FPUwQTxPSXurCrcIov">Alec Benjamin</a></li>
-            <li><a href="https://open.spotify.com/artist/2q3GG88dVwuQPF4FmySr9I">The Score</a></li>
-            <li><a href="https://open.spotify.com/artist/0lAWpj5szCSwM4rUMHYmrr">Maneskin</a></li>
-        </ol>
+        <h2>About Me</h2>
+        <p>I am a senior Computer Science Major with minors in Mathematics and Data Analytics at Elizabethtown College. I plan to graduate May 2025. I also enjoy music and traveling.</p>
         
-        <h4>My Moods:</h4>
-        Happy:<img src="imgs/happy.jpg" alt="Happy Red Panda" height="200">
-        Sad:<img src="imgs/sadge.jpg" alt="Sad Raccoon" height="200">
+        <h2>Skills</h2>
+        <div id="skills-container">
+            <div class="skill-box">Python</div>
+            <div class="skill-box">C</div>
+            <div class="skill-box">Java</div>
+            <div class="skill-box">Javascript</div>
+            <div class="skill-box">SQL</div>
+            <div class="skill-box">Bash</div>
+            <div class="skill-box">HTML</div>
+            <div class="skill-box">CSS</div>
+        </div>
+        
+        <h2>Experience</h2>
+        <div id="experience-container">
+            <div class="experience-box">
+                <h3>NREIP 2022 Internship</h3>
+                <p>I had an online internship from September-November 2022 with the Naval Research Enterprise Internship Program. 
+                    I had to write a thorough research paper on the Internet of Things (IoT) discussing and demonstrating remote monitoring, 
+                    autonomy-sensor integration, tablet application, and architecture.</p>
+            </div>
+            <div class="experience-box">
+                <h3>NREIP 2023 Internship</h3>
+                <p>I completed an in-person 8-week summer internship with the Naval Research Enterprise Internship Program at Naval Air Station Patuxent River. I worked on various tasks, 
+                    specifically working on graphic user interfaces for multiple projects in mainly in Java working along mentors and experts in the field.</p>
+            </div>
+            <div class="experience-box">
+                <h3>SMART 2024 Internship</h3>
+                <p>I am a SMART Scholar, selected through the Science, Mathematics, and Research for Transformation (SMART) Scholarship-for-Service Program.
+                    Through the program, I completed a 9-week summer internship at Naval Air Station Patuxent River. Primarily, I wrote bash scripts for several tasks
+                    that aided in the flow and effeciency of the workspace.
+                </p>
+            </div>
+            <div class="experience-box">
+                <h3>Tutor</h3>
+                <p>I am a tutor for the Learning Zone at Etown. Currently, I tutor for Computer Science I, Calculus II, 
+                    Probability and Statistics, and Statistical Methods in Research. I am also a Coding Coach for the Computer Science department which is a tutor specifically meant to help students taking CS courses.
+                    I've been tutoring at the Learning Zone for about 4 semesters and a Coding Coach for 3 semesters.</p>
+            </div>
+        </div>
 
-        <h4>Fun Facts About My Neighbors:</h4>
-        <ul>
-            <li>Dani has 4 cats.</li>
-            <li>Steph has 1 sister. </li>
-        </ul>
+        <h2>Projects</h2>
+        <div id="projects-container">
+            <div class="project">
+                <a href="https://pachecomattivii.etowndb.com/Baseball/" target="_blank">
+                    <img src="imgs/img2.png" alt="Baseball Website" class="thumbnail">
+                </a>
+                <figure>
+                    <figcaption>
+                    <strong>Baseball History Musem - Fall 2023</strong>
+                    <p>A website made for CS341 Software Engineering for the purpose of accessing baseball history over the past 100 years.</p>
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="project">
+                <a href="https://gamers.etowndb.com/" target="_blank">
+                    <img src="imgs/img1.png" alt="Games Website" class="thumbnail">
+                </a>
+                <figure>
+                    <figcaption>
+                    <strong>Etown Games - Fall 2023</strong>
+                    <p>A website made for a final group project in CS341 Software Engineering for the purpose of encouraging incoming Etown students to learn more about the school and the CS department in a fun environment.</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+
+        <h2>Completed Courses</h2>
+        <div id="courses-container">
+            <table>
+                <thead>
+                    <tr> <!--Columns-->
+                        <th class="course-head">Fall 2021</th>
+                        <th class="course-head">Spring 2022</th>
+                        <th class="course-head">Fall 2022</th>
+                        <th class="course-head">Spring 2023</th>
+                        <th class="course-head">Fall 2023</th>
+                        <th class="course-head">Spring 2024</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr> <!--Rows-->
+                        <td>Computer Science I</td>
+                        <td>Computer Science II</td>
+                        <td>Database Systems</td>
+                        <td>Systems Programming</td>
+                        <td>Software Engineering</td>
+                        <td>Algorithms</td>
+                    </tr>
+                    <tr>
+                        <td>Calculus I</td>
+                        <td>Calculus II</td>
+                        <td>Data Structures</td>
+                        <td>Probability and Statistics</td>
+                        <td>Computer Networking</td>
+                        <td>Programming Language Design and Implementation</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>Intro to Mathematical Proofs</td>
+                        <td></td>
+                        <td>Computer Security</td>
+                        <td>Machine Learning</td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Statistical Methods in Research</td>
+                        <td>Linear Algebra</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
 </body>
+<footer>
+    <p>CS310 Web Development</p>
+</footer>
 </html>
