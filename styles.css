@@ -12,6 +12,10 @@ header {
     padding: 10px
 }
 
+header>p {
+    font-weight: bold;
+}
+
 h1 {
     color: #3C264F;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
